@@ -7,7 +7,8 @@ from src import GLMControl
 
 @pytest.fixture
 def glm_control():
-    return GLMControl("IAC Driver Bus 1")
+    with patch("mido.get_input_names", return_value=["IAC Driver Bus 1"]):
+        return GLMControl("IAC Driver Bus 1")
 
 
 def test_find_virtual_midi_device(glm_control: GLMControl):
