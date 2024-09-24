@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 import pytest
 
-from src import GLMControl
+from glm_cli import GLMControl
 
 
 @pytest.fixture

@@ -40,3 +40,11 @@ multi_line_output = 3
 select = ["E", "F", "B"]
 exclude = ["__pycache__", "terraform", ".git", ".venv"]
 ignore = ["E501"]
+
+[project.scripts]
+glm-cli = "glm_cli:cli"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

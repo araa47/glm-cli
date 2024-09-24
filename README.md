@@ -11,6 +11,7 @@ Simply run `direnv allow` to setup the environment, you can read the contents of
 ## Usage
 
 1. Open the Genelec GLM app
+
 2. Open Audio Midi Setup -> Window show Midi Studio -> Make sure IAC Driver is online, you can look at image below to verify
 
 ![iac-driver](./docs/iac-driver.png)
@@ -19,5 +20,4 @@ Simply run `direnv allow` to setup the environment, you can read the contents of
 
 ![glm-midi-settings](./docs/glm-midi-settings.png)
 
-
-4. Run `python cli.py --help` to see the available commands
+4. Run `glm-cli --help` to see the available commands
