@@ -1,6 +1,6 @@
 [project]
 name = "glm_cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "Genelec GLM API (works over virtual midi, expects app to be open)"
 readme = "README.md"
 requires-python = ">=3.13"
